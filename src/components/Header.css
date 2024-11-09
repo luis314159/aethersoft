@@ -1,0 +1,50 @@
+/* Header.css */
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--background-color);
+  }
+  
+  .menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-bottom: none;
+  }
+  
+  .ant-menu-horizontal {
+    border-bottom: none;
+  }
+  
+  .menu .ant-menu-item {
+    color: var(--background-color);
+    font-weight: 500;
+    border-bottom: none;
+  }
+  
+  .menu .ant-menu-item:hover {
+    color: var(--secondary-color);
+  }
+  
+  .header-button {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .header-button:hover {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+  }
+  

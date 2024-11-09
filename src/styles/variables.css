@@ -1,0 +1,7 @@
+/* variables.css */
+:root {
+    --primary-color: #00AFEF;    /* Azul principal */
+    --secondary-color: #9BDAF2;  /* Azul claro */
+    --background-color: #FEFEFE; /* Blanco */
+    --text-color: #000000;       /* Negro o ajusta según necesites */
+  }

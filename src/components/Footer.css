@@ -1,0 +1,18 @@
+.contact-section {
+    padding: 50px 20px;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--background-color);
+  }
+  
+  .contact-form .submit-button {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: none;
+  }
+  
+  .contact-form .submit-button:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+  

@@ -1,0 +1,31 @@
+/* HeroSection.css */
+.hero-section {
+    background-color: var(--background-color); /* Fondo blanco */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color); /* Color del texto principal */
+    padding: 0 20px;
+  }
+  
+  .hero-logo {
+    width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-bottom: 20px;
+  }
+  
+  .main-title {
+    font-size: 2.5em;
+    color: var(--primary-color); /* Título en color principal */
+    font-weight: bold;
+    margin: 0.5em 0;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    color: var(--text-color); /* Texto en color secundario */
+    margin-top: 10px;
+  }
+  
